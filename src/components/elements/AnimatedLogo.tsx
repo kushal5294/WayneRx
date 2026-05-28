@@ -20,7 +20,7 @@ export const AnimatedLogo = () => {
               <animate
                 attributeName="x"
                 values="-600;2200"
-                dur="2.5s"
+                dur="2s"
                 repeatCount="indefinite"
               />
             </rect>
