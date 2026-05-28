@@ -1,0 +1,6 @@
+hours
+
+monday tue 8:30 - 5
+wed thurs 8:30 - 4:30
+fir 8:30 - 3:30
+sat sun closed
