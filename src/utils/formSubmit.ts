@@ -39,7 +39,7 @@ const sendEmail = async (formData: any) => {
   const payload = buildPayload(formData);
 
   try {
-    await axios.post("https://waynerxpharmacy.com/api/send-email", payload, {
+    await axios.post("https://waynerxdrugs.com/api/send-email", payload, {
       headers: { "Content-Type": "application/json" },
     });
 
