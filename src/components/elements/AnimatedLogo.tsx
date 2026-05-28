@@ -7,23 +7,37 @@ export const AnimatedLogo = () => {
         className="w-full h-auto"
       >
         <defs>
-          {/* Soft-edged gap that fades in/out as it sweeps across the red EKG */}
+          {/*
+            Gradient gives the gap soft faded edges.
+            In a mask: white = show, black = hide.
+            The rect's x="-300" keeps it off-screen LEFT as its natural/fallback
+            position, so nothing is hidden before the SMIL animation starts.
+          */}
           <linearGradient id="gap-fade" x1="0%" y1="0%" x2="100%" y2="0%">
-            <stop offset="0%" stopColor="white" />
-            <stop offset="20%" stopColor="black" />
-            <stop offset="80%" stopColor="black" />
+            <stop offset="0%"   stopColor="white" />
+            <stop offset="15%"  stopColor="black" />
+            <stop offset="85%"  stopColor="black" />
             <stop offset="100%" stopColor="white" />
           </linearGradient>
           <mask id="ekg-scan-mask">
-            {/* White = show red; black = hide red */}
             <rect width="2048" height="886" fill="white" />
-            <rect width="250" height="886" fill="url(#gap-fade)">
+            {/*
+              x="-300" → natural position is fully off-screen left.
+              from="0 0" keeps it there at animation start (translate adds 0).
+              to="2348 0" → left edge lands at -300+2348=2048 (off-screen right).
+              calcMode spline + keySplines gives ease-in-out: fast at edges,
+              slowest when the gap is in the centre of the logo.
+            */}
+            <rect x="-300" width="300" height="886" fill="url(#gap-fade)">
               <animateTransform
                 attributeName="transform"
                 type="translate"
-                from="-250 0"
-                to="2048 0"
+                from="0 0"
+                to="2348 0"
                 dur="4s"
+                calcMode="spline"
+                keyTimes="0;1"
+                keySplines="0.42 0 0.58 1"
                 repeatCount="indefinite"
               />
             </rect>
