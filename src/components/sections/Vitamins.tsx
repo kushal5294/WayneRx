@@ -15,7 +15,7 @@ export const Vitamins = () => {
 
             <div className="space-y-4">
               <Paragraph>
-                When the food you eat cannot fulfill your needed intake of
+                When the food you eat can't fulfill your needed intake of
                 nutrients, vitamins and supplements can help. At our pharmacy in
                 Wayne, Michigan, we offer a variety of vitamins and supplements
                 that can help you boost your health. You can take your pick of
