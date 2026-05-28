@@ -7,7 +7,7 @@ export const Home = () => {
   return (
     <>
       <Helmet>
-        <title>Wayne Rx Pharmacy</title>
+        <title>Wayne Rx Drugs</title>
         <meta
           name="description"
           content="Your friendly neighborhood pharmacy in Wayne, Michigan, offering prescription refills, delivery, and personalized health services."

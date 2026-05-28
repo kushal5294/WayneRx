@@ -6,7 +6,7 @@ export const Resources = () => {
   return (
     <>
       <Helmet>
-        <title>Resources - Wayne Rx Pharmacy</title>
+        <title>Resources - Wayne Rx Drugs</title>
         <meta
           name="description"
           content="Explore useful resources to guide your medical journey in Wayne, Michigan."

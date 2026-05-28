@@ -17,7 +17,7 @@ export const Vitamins = () => {
               <Paragraph>
                 When the food you eat cannot fulfill your needed intake of
                 nutrients, vitamins and supplements can help. At our pharmacy in
-                Warren, Michigan, we offer a variety of vitamins and supplements
+                Wayne, Michigan, we offer a variety of vitamins and supplements
                 that can help you boost your health. You can take your pick of
                 quality, budget-friendly products that are suitable for
                 different needs and conditions.

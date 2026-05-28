@@ -9,7 +9,7 @@ export const Delivery = () => {
   return (
     <>
       <Helmet>
-        <title>Delivery Services - Wayne Rx Pharmacy</title>
+        <title>Delivery Services - Wayne Rx Drugs</title>
         <meta
           name="description"
           content="Get your medications delivered to your doorstep. Wayne Rx offers convenient and reliable prescription delivery services."
@@ -23,7 +23,7 @@ export const Delivery = () => {
               Don’t have the time to personally pick up your medicines? Not a
               problem! For your convenience,{" "}
               <span style={{ color: darkBlue }} className="font-bold">
-                Wayne Rx Pharmacy
+                Wayne Rx Drugs
               </span>{" "}
               can deliver your medications directly to your doorstep. To get
               started, please fill out the form provided.

@@ -47,7 +47,7 @@ export const SpecialPackaging = () => {
                 When you are a senior or someone with a medical condition,
                 taking multiple medications becomes a part of life. That’s why{" "}
                 <span style={{ color: darkBlue }} className="font-bold">
-                  Wayne Rx Pharmacy
+                  Wayne Rx Drugs
                 </span>{" "}
                 proudly offers{" "}
                 <span style={{ color: darkBlue }} className="font-bold">

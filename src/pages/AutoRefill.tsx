@@ -9,10 +9,10 @@ export const AutoRefill = () => {
   return (
     <>
       <Helmet>
-        <title>Auto Refills - Wayne Rx Pharmacy</title>
+        <title>Auto Refills - Wayne Rx Drugs</title>
         <meta
           name="description"
-          content="Set up automatic prescription refills at Wayne Rx in Wayne, Michigan. Save time and avoid multiple trips to the pharmacy with our convenient auto-refill service."
+          content="Set up automatic prescription refills at Wayne Rx Drugs in Wayne, Michigan. Save time and avoid multiple trips to the pharmacy with our convenient auto-refill service."
         />
       </Helmet>
       <Banner text="Auto Refills" />
@@ -22,7 +22,7 @@ export const AutoRefill = () => {
             <Paragraph>
               With{" "}
               <span style={{ color: darkBlue }} className="font-bold">
-                Wayne Rx Pharmacy
+                Wayne Rx Drugs
               </span>
               , you can easily have all of your prescriptions refilled at a
               particular time each month. This way, you will no longer have to

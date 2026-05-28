@@ -33,14 +33,14 @@ export const FullAboutUs = () => {
 
           {/* Right side */}
           <div className="w-full md:w-2/3 flex flex-col space-y-6 text-center md:text-left">
-            <Title>About Wayne Rx Pharmacy</Title>
+            <Title>About Wayne Rx Drugs</Title>
 
             <div className="space-y-4">
               <Paragraph>
                 We were established to promote the health of our community in
-                Wayne, Michigan. We are dedicated to ensuring that each
-                person we serve is satisfactorily given the services and
-                products needed to attain an optimal level of wellness.
+                Wayne, Michigan. We are dedicated to ensuring that each person
+                we serve is satisfactorily given the services and products
+                needed to attain an optimal level of wellness.
               </Paragraph>
 
               <Paragraph>
@@ -51,8 +51,8 @@ export const FullAboutUs = () => {
               </Paragraph>
 
               <Paragraph>
-                At Wayne Rx Pharmacy, we treat you as if you were a member of
-                our family. We get to know you, your health conditions, and the
+                At Wayne Rx Drugs, we treat you as if you were a member of our
+                family. We get to know you, your health conditions, and the
                 medicines you are taking so we can provide services that are
                 suitable for your specific needs and preferences.
               </Paragraph>

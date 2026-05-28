@@ -9,10 +9,10 @@ export const Transfer = () => {
   return (
     <>
       <Helmet>
-        <title>Transfer Prescription - Wayne Rx Pharmacy</title>
+        <title>Transfer Prescription - Wayne Rx Drugs</title>
         <meta
           name="description"
-          content="Easily transfer your prescription to Wayne Rx in Wayne, Michigan from another pharmacy. Fill out our simple form and we'll handle the rest."
+          content="Easily transfer your prescription to Wayne Rx Drugs in Wayne, Michigan from another pharmacy. Fill out our simple form and we'll handle the rest."
         />
       </Helmet>
       <Banner text="Transfer Prescription" />
@@ -22,7 +22,7 @@ export const Transfer = () => {
             <Paragraph>
               Want to transfer your prescription from another pharmacy to{" "}
               <span style={{ color: darkBlue }} className="font-bold">
-                Wayne Rx Pharmacy
+                Wayne Rx Drugs
               </span>
               ? All you will need to do is to request for a transfer of your
               prescriptions by filling out the form provided. We will take care

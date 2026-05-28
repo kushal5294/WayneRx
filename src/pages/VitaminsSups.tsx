@@ -5,10 +5,10 @@ export const VitaminsAndSupplements = () => {
   return (
     <>
       <Helmet>
-        <title>Vitamins & Supplements - Wayne Rx Pharmacy</title>
+        <title>Vitamins & Supplements - Wayne Rx Drugs</title>
         <meta
           name="description"
-          content="Shop a wide selection of high-quality vitamins and supplements at Wayne Rx in Wayne, Michigan to support your health and wellness goals."
+          content="Shop a wide selection of high-quality vitamins and supplements at Wayne Rx Drugs in Wayne, Michigan to support your health and wellness goals."
         />
       </Helmet>
       <Banner text="Vitamins & Supplements" />

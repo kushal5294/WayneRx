@@ -9,7 +9,7 @@ export const Booking = () => {
   return (
     <>
       <Helmet>
-        <title>Book an Appointment - Wayne Rx Pharmacy</title>
+        <title>Book an Appointment - Wayne Rx Drugs</title>
         <meta
           name="description"
           content="Schedule your vaccination appointment at Wayne Rx in Wayne, Michigan. Use our simple online form to request a date and time that works for you."
@@ -22,7 +22,7 @@ export const Booking = () => {
             <Paragraph>
               Your health is our priority at{" "}
               <span style={{ color: darkBlue }} className="font-bold">
-                Wayne Rx Pharmacy
+                Wayne Rx Drugs
               </span>
               . Please use the form below to request your vaccination
               appointment. After you submit your details, a member of our team

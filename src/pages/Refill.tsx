@@ -9,7 +9,7 @@ export const Refill = () => {
   return (
     <>
       <Helmet>
-        <title>Refill Prescription - Wayne Rx Pharmacy</title>
+        <title>Refill Prescription - Wayne Rx Drugs</title>
         <meta
           name="description"
           content="Quickly and easily refill your prescription online at Wayne Rx in Wayne, Michigan. Fill out our simple form to have your medication ready for you."

@@ -9,7 +9,7 @@ export const Consult = () => {
   return (
     <>
       <Helmet>
-        <title>Talk to a Pharmacist - Wayne Rx Pharmacy</title>
+        <title>Talk to a Pharmacist - Wayne Rx Drugs</title>
         <meta
           name="description"
           content="Have questions about your medication? Schedule a consultation with an expert pharmacist at Wayne Rx in Wayne, Michigan for professional health advice."
@@ -24,7 +24,7 @@ export const Consult = () => {
               you want expert advice regarding your concerns, you can turn to
               our pharmacists at{" "}
               <span style={{ color: darkBlue }} className="font-bold">
-                Wayne Rx Pharmacy
+                Wayne Rx Drugs
               </span>
               . They are readily available to assist you with your medicine and
               health-related issues. Schedule an appointment by filling out the

@@ -6,10 +6,10 @@ export const AboutUs = () => {
   return (
     <>
       <Helmet>
-        <title>About Us - Wayne Rx Pharmacy</title>
+        <title>About Us - Wayne Rx Drugs</title>
         <meta
           name="description"
-          content="Learn more about Wayne Rx, our history, and our commitment to providing the best pharmacy services in Wayne, Michigan."
+          content="Learn more about Wayne Rx Drugs, our history, and our commitment to providing the best pharmacy services in Wayne, Michigan."
         />
       </Helmet>
       <Banner text="About Us" />

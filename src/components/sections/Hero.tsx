@@ -34,7 +34,7 @@ export const Hero = () => {
                 color: isSmall ? red : undefined,
               }}
             >
-              Wayne Rx Pharmacy
+              Wayne Rx Drugs
             </span>
           </h1>
 

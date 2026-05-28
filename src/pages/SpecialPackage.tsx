@@ -5,7 +5,7 @@ export const SpecialPackage = () => {
   return (
     <>
       <Helmet>
-        <title>Special Packaging - Wayne Rx Pharmacy</title>
+        <title>Special Packaging - Wayne Rx Drugs</title>
         <meta
           name="description"
           content="Learn about our special packaging services in Wayne, Michigan to help manage your medications safely and effectively. Ideal for multi-dose regimens."
