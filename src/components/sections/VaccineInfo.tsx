@@ -21,7 +21,7 @@ export const VaccineInfo = () => {
                 Whether you're preparing for travel, safeguarding your health,
                 or keeping up with recommended immunizations,{" "}
                 <span style={{ color: darkBlue }} className="font-bold">
-                  Wayne Rx Pharmacy
+                  Wayne Rx Drugs
                 </span>{" "}
                 makes it easy to stay on top of your vaccinations. Visit us
                 today for quick, convenient, and professional vaccine services

@@ -27,7 +27,7 @@ export const Footer = () => {
             <img
               src={logo}
               className="w-50 lg:w-60"
-              alt="Wayne Rx Pharmacy Logo"
+              alt="Wayne Rx Drugs Logo"
             />
             <div className=" text-base lg:text-base" style={{ color: red }}>
               © Wayne Rx 2026
