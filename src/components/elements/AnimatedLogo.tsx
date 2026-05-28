@@ -1,6 +1,7 @@
 export const AnimatedLogo = () => {
   return (
-    <div className="w-40 sm:w-56">
+    <div className="w-40 md:w-50 lg:w-50">
+      {" "}
       <svg
         viewBox="0 0 2048 869"
         xmlns="http://www.w3.org/2000/svg"

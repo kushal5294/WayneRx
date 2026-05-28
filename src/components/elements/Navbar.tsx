@@ -24,7 +24,10 @@ export const Navbar = () => {
           {/* --- Top Row: Logo + Dropdown / Nav Links --- */}
           <div className="w-full flex justify-between items-center mb-4 lg:mb-0">
             {/* Logo */}
-            <a href="/" className="flex-shrink-0 flex items-center">
+            <a
+              href="/"
+              className="flex-shrink-0 flex items-center leading-none"
+            >
               <AnimatedLogo />
             </a>
 
